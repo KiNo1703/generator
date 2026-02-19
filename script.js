@@ -34,6 +34,11 @@ const MODELS = {
 
 // Зип
     'vector_101_08': VECTOR_101_08_CONFIG,
+
+// Нартис
+   'nartis_100_08': NARTIS_100_08_CONFIG,
+   'nartis_102_09': NARTIS_102_09_CONFIG,
+
 };
 
 // ==================== МОДЕЛИ ПО ПРОИЗВОДИТЕЛЯМ ====================
@@ -72,6 +77,11 @@ const MODELS_BY_MANUFACTURER = {
     ],
      'spbzip': [
         { id: 'vector_101_08', name: 'Вектор 101', journal: '0x08', desc: 'Суточный журнал' }
+    ],
+    
+     'nartis': [
+        { id: 'nartis_100_08', name: 'Нартис 100/300', journal: '0x08', desc: 'Суточный журнал' },
+        { id: 'nartis_102_09', name: 'Нартис 100/300 (Сплит)', journal: '0x09', desc: 'Суточный журнал ' }
     ]
 };
 
